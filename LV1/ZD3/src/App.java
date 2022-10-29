@@ -5,7 +5,7 @@ public class App {
         
         Scanner input = new Scanner(System.in);
 
-        int a, b, c;
+        int a, b;
 
         System.out.print("Unesi prvi broj: ");
         a = input.nextInt();
