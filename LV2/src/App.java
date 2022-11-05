@@ -34,7 +34,7 @@ public class App {
 
         iz = izracun(zap.pStaz, zap.pPlaca);
         System.out.printf("Starost: %d  Placa: %f  Staz: %d", zap.pStarost, zap.pPlaca, zap.pStaz);
-        System.out.printf("\nUkupna placa: %.2f, iz")
+        System.out.printf("\nUkupna placa: %.2f", iz);
         
        
     }
