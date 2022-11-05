@@ -14,6 +14,7 @@ public class App {
 
         return placa * 12 * staz;
     }
+
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         Zarulja osram = new Zarulja();
@@ -23,29 +24,19 @@ public class App {
         provjeri(osram.pritisniPrekidac);
 
         Zaposlenik zap = new Zaposlenik();
+       
+        float iz;
 
-        float money;
-        money = izracun(zap.pStaz, zap.pPlaca);
-        System.out.printf("Do sada zaposlenik je zaradio %.1f\n", money);
-
-        System.out.printf("Unesi starost: ");
-        zap.pStarost = input.nextInt();
-        System.out.printf("Unesi staž: ");
+        System.out.printf("Unesi starost, staz, placu: ");
+        zap.pStarost= input.nextInt();
         zap.pStaz = input.nextInt();
-        System.out.printf("Unesi placu: ");
         zap.pPlaca = input.nextFloat();
 
-        System.out.printf("Godine: %d  Staz: %d  Placa: %.2f\n", zap.pStarost, zap.pStaz, zap.pPlaca);
-        money = izracun(zap.pStaz, zap.pPlaca);
-        System.out.printf("Do sada zaposlenik je zaradio %.1f\n", money);
-
+        iz = izracun(zap.pStaz, zap.pPlaca);
+        System.out.printf("Starost: %d  Placa: %f  Staz: %d", zap.pStarost, zap.pPlaca, zap.pStaz);
+        System.out.printf("\nUkupna placa: %.2f, iz")
         
-    
-        
-
-        
-        
-        
+       
     }
     
 }

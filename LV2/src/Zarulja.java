@@ -1,5 +1,10 @@
 public class Zarulja{
-    private boolean Stanje = false;
+
+    private boolean stanje;
     int pritisniPrekidac;
+    Zarulja(){
+        stanje = false;
+    
+    }
     
 }
