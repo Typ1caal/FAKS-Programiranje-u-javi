@@ -1,21 +1,24 @@
+import java.util.concurrent.TimeUnit;
+
 public class Main {
     
 	public static void main(String[] args){
-	   
-	   /*
+	
+		
+
 		for(int i = 1; i <= 1; i++){
 		    Raketa r = new Raketa("R" + i);
 		    r.start();
 		}
-		*/
 		
-		/*
+		
+		
 		for(int i = 1; i <= 2; i++){
 		    Raketa r = new Raketa("R" + i);
 		    Thread n = new Thread(r);
 		    n.start();
 		}
-		*/
+		
 		
 		
 		
